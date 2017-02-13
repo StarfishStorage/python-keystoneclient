@@ -30,10 +30,8 @@ Identity V2 and V3 clients can also be created directly. See
 import importlib
 import sys
 
-import pbr.version
 
-
-__version__ = pbr.version.VersionInfo('python-keystoneclient').version_string()
+__version__ = '3.9.0'
 
 __all__ = (
     # Modules
